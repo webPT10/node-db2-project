@@ -38,10 +38,26 @@ The client for this API is a car dealer who has provided the following specs:
 - Add `UPDATE` and `DELETE` operations to your API.
 - Write a schema file for a `sales` table. This table should track information on the sale of each car. You may wish to research `foreign keys` in order to link each sale to the entry in `cars` which sold.
 
-#### STEPS 
+#### STEPS
+
 - install npm
 - install knex Globally
 - install knex and sqlite3
 - create knexfile.js > npx knex init
 - set up file structure
 - create .db3 file in Data
+- created files for car-router, welcome, and index.js
+- npx knex migrate:make cars
+- build out migrations/cars.js for .up
+- npx knex migrate:latest
+- 
+
+<!-- SCHEMA  -->
+<!-- CREATE TABLE IF NOT EXISTS "cars" (
+	"VIN" TEXT NOT NULL PRIMARY KEY UNIQUE,
+	"MAKE" TEXT NOT NULL ,
+	"MODEL" TEXT NOT NULL,
+	"MILEAGE" INTEGER NOT NULL,
+	"TRANSMISSION TYPE" TEXT,
+	"STATUS OF TITLE" TEXT
+); -->
