@@ -37,3 +37,11 @@ The client for this API is a car dealer who has provided the following specs:
 - Add seed data to the database using `knex seeds`
 - Add `UPDATE` and `DELETE` operations to your API.
 - Write a schema file for a `sales` table. This table should track information on the sale of each car. You may wish to research `foreign keys` in order to link each sale to the entry in `cars` which sold.
+
+#### STEPS 
+- install npm
+- install knex Globally
+- install knex and sqlite3
+- create knexfile.js > npx knex init
+- set up file structure
+- create .db3 file in Data
