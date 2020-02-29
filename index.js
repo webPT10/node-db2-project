@@ -4,7 +4,7 @@ const carsRouter = require("./cars/cars-router");
 const server = express();
 const port = 7000;
 
-server.use(express(json));
+server.use(express.json());
 
 server.use("/cars", carsRouter);
 

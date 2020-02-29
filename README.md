@@ -41,6 +41,7 @@ The client for this API is a car dealer who has provided the following specs:
 #### STEPS
 
 - install npm
+- install express
 - install knex Globally
 - install knex and sqlite3
 - create knexfile.js > npx knex init
